@@ -1,106 +1,62 @@
-/* Estilo para o contêiner de cada restaurante */
-.restaurant-container {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .restaurant-list {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .restaurant-container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    width: 225px;
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  /* Estilo para o nome do restaurante */
   .restaurant-name {
-    font-weight: bold;
+    font-size: 20px;
     color: #333;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin: 10px 0;
   }
   
-  /* Estilo para a imagem do restaurante */
   .restaurant-image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 225px;
     border-radius: 5px;
-    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Estilo para o link "Ir até o site..." */
   .restaurant-link {
-    color: #007bff;
+    font-size: 16px;
+    color: #555;
     text-decoration: none;
+    margin-top: auto;
   }
   
-  /* ... (outros estilos) */
-
-/* Estilo para o link "Ir até o site..." */
-.restaurant-link {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
-  }
-  
-  /* Mudar cor quando o mouse passa por cima */
   .restaurant-link:hover {
-    color: #ff00ff; /* Roxo */
+    text-decoration: underline;
   }
-  
-  /* Mudar cor quando o link é clicado */
-  .restaurant-link:active {
-    color: #800080; /* Roxo mais escuro */
-  }
-  
- /* ... (outros estilos) */
-
-/* Estilo para o corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f8f8f8;
-  }
-  
-  /* Estilo para os títulos dos restaurantes */
-  .restaurant-name {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  /* Estilo para o link "Ir até o site..." */
-  .restaurant-link {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  /* Efeito de hover para o contêiner de restaurante */
-.restaurant-container:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transform: scale(1.02);
-  }
-  
-  /* Efeito de hover para o link "Ir até o site..." */
-  .restaurant-link:hover {
-    color: #ff00ff; /* Roxo */
-  }
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-    /* Centralizar imagens em dispositivos móveis */
-    .restaurant-image {
-      margin: 0 auto;
-    }
-  
-    /* Reduzir o tamanho dos títulos dos restaurantes */
-    .restaurant-name {
-      font-size: 16px;
-    }
-  
-    /* Ajustar espaçamento em dispositivos móveis */
-    .restaurant-container {
-      margin: 10px 0;
-      padding: 10px;
-    }
-  }
-    
-  
-  
   
