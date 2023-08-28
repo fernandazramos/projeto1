@@ -34,21 +34,73 @@
 
 /* Estilo para o link "Ir até o site..." */
 .restaurant-link {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
-}
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
+  }
+  
+  /* Mudar cor quando o mouse passa por cima */
+  .restaurant-link:hover {
+    color: #ff00ff; /* Roxo */
+  }
+  
+  /* Mudar cor quando o link é clicado */
+  .restaurant-link:active {
+    color: #800080; /* Roxo mais escuro */
+  }
+  
+ /* ... (outros estilos) */
 
-/* Mudar cor quando o mouse passa por cima */
-.restaurant-link:hover {
-  color: #ff00ff; /* Roxo */
-}
-
-/* Mudar cor quando o link é clicado */
-.restaurant-link:active {
-  color: #800080; /* Roxo mais escuro */
-}
-
-
-
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Estilo para os títulos dos restaurantes */
+  .restaurant-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para o link "Ir até o site..." */
+  .restaurant-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Efeito de hover para o contêiner de restaurante */
+.restaurant-container:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+  }
+  
+  /* Efeito de hover para o link "Ir até o site..." */
+  .restaurant-link:hover {
+    color: #ff00ff; /* Roxo */
+  }
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Centralizar imagens em dispositivos móveis */
+    .restaurant-image {
+      margin: 0 auto;
+    }
+  
+    /* Reduzir o tamanho dos títulos dos restaurantes */
+    .restaurant-name {
+      font-size: 16px;
+    }
+  
+    /* Ajustar espaçamento em dispositivos móveis */
+    .restaurant-container {
+      margin: 10px 0;
+      padding: 10px;
+    }
+  }
+    
+  
+  
   
