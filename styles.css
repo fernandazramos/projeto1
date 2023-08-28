@@ -31,4 +31,24 @@
   }
   
   /* ... (outros estilos) */
+
+/* Estilo para o link "Ir até o site..." */
+.restaurant-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s; /* Adiciona uma transição suave na mudança de cor */
+}
+
+/* Mudar cor quando o mouse passa por cima */
+.restaurant-link:hover {
+  color: #ff00ff; /* Roxo */
+}
+
+/* Mudar cor quando o link é clicado */
+.restaurant-link:active {
+  color: #800080; /* Roxo mais escuro */
+}
+
+
+
   
